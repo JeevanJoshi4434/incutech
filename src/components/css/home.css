@@ -1,0 +1,100 @@
+.home{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.cards{
+    margin-top: 50px;
+    display: block;
+    align-items: center;    
+}
+.eventCard{
+    margin: 10px 20px;
+}
+
+.img1{
+    width: 330px;
+    height: 350px;
+}
+.home > h5{
+    font-size: 40px;
+}
+
+.home > p{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0;
+    margin-bottom: -0.25em;
+
+}
+
+.title > p {
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 0;
+    margin-bottom: -0.25em;
+}
+.gradient-text {
+    background-image: linear-gradient(90deg, #fc380c, #ff8800);
+    /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+  /* Fallback: Set a background color. */
+  background-color: red;
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.footer{
+    display: flex;
+    height: 9vh;
+    background-color: #252525;
+    color: aliceblue;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footerbutton {
+    color: aliceblue;
+}
+.footerbutton:hover{
+    color: rgb(218, 218, 218);
+    cursor: pointer;
+}
+.fb{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+.instagram{
+    width: 25px;
+    height: 25px;
+}
+
+
+@media screen and (max-device-width: 430px){
+    
+.img1{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+}
+.heading{
+    margin-left: 20px;
+}
+.title > p{
+    font-size: 29px;
+}
+
+.home > p , .home > h5{
+    font-size: 20px;
+}
+}

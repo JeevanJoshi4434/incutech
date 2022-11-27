@@ -1,0 +1,20 @@
+.contact-body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.contact-item{
+    width: 60vh;
+}
+@media screen and (max-device-width: 430px){
+    
+.contact-item{
+    width: 40vh;
+}
+}
+@media screen and (max-device-width: 330px){
+    
+.contact-item{
+    width: 35vh;
+}
+}

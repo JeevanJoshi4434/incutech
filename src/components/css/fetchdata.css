@@ -1,0 +1,10 @@
+.member {
+    width: 300px;
+    border-radius:7px;
+    border-width: 1px;
+    border-color:#dadada;
+    border-style:solid;
+}
+.member-image{
+    border-radius: 7px;
+}

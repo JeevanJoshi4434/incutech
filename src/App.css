@@ -1,0 +1,9 @@
+.eventList{
+    display: flex;
+    flex-direction: row;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}

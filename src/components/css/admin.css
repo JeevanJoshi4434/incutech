@@ -1,0 +1,32 @@
+.admin-nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.uploaded-section{
+    display: flex;
+    height: 79.5vh;
+    flex-direction: column;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+.sections{
+    display: flex;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+.eventList{
+    display: flex;
+    flex-direction: row;
+}
+
+.course {
+    margin: 20px 0;
+    height: 37vh;
+}
+
+.event{
+
+    margin: 20px 0;
+    height: 37vh;
+}
