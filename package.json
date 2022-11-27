@@ -36,7 +36,7 @@
   },
   "scripts": {
     "start": "nodemon backend/server.js",
-    "build": "CI = react-scripts build",
+    "build": "CI = npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "both": "concurrently \"npm run start\" \"nodemon backend/server.js\"",
