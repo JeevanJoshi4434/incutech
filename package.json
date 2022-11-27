@@ -20,8 +20,6 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.7.0",
     "netlify": "^13.0.2",
-    "netlify-cli": "^12.2.7",
-    "netlify-lambda": "^2.0.15",
     "nodemailer": "^6.8.0",
     "nodemon": "^2.0.20",
     "react": "^18.2.0",
@@ -38,7 +36,7 @@
   },
   "scripts": {
     "start": "nodemon backend/server.js",
-    "build": "CI = npm run build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "both": "concurrently \"npm run start\" \"nodemon backend/server.js\"",
